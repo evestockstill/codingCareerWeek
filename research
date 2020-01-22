@@ -1,0 +1,6 @@
+first you need to have an add function that will take in two dates. A dat1 and a date2. you can give a date parameter with the new Date javascript method.
+
+Then get the diff_in_time of time by date2.getTime() another javascript method that converts the time into milliseconds and subtracting date1.getTime()
+
+To get the amount of days create a diff_in_days you will have to set it equal to diff_in_time and divided it into the converted milliseconds which is 1000 * 3600 * 24
+You will then have that difference.
